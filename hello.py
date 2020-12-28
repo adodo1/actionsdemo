@@ -10,6 +10,6 @@ if __name__ == '__main__':
     url = 'http://dzdy.itzjj.cn/static/skin/summer/images/top1.jpg'
     url = 'https://avgle.com/videos'
     r = requests.get(url)
-    data = r.content
+    data = r.text
     print(r.status_code)
     print(data)
