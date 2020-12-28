@@ -13,3 +13,9 @@ if __name__ == '__main__':
     data = r.text
     print(r.status_code)
     print(data)
+
+    for i in range(10):
+        print(i, '---------')
+        time.sleep(5)
+    
+    print('Done.')
